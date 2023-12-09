@@ -1,1 +1,4 @@
 # MCS (*Mediatek Cloud Sandbox*) Arduino Library for ESP32 boards
+This is MCS Arduino library ported for ESP32 boards. The porting is easy. The only one thing to do is changing the included header file "LWiFi.h" to "WiFi.h". In order to distinguish between this modified version and the original one, I named this project as "MSC_ESP32". In addition, I modified all examples such that they use MCS lite server instead of MCS server. This is due to the formal open MCS server has been stopped by Mediatek, but we still can install MCS lite server instead.  And, I add a new example with DHT22 sensor which periodically uploads temperature/humidity values and whose build-in LED On/Off can be remote controlled.  
+![image](https://github.com/ghliaw/MCS_ESP32/assets/5998562/399aeec7-d067-40f9-a85f-14d4c973aa00)
+
