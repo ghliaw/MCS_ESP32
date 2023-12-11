@@ -13,14 +13,14 @@ DHT dht(DHTPIN, DHTTYPE);
 unsigned long dht_last_time = 0;
 
 // Assign AP ssid / password here
-#define _SSID "31N"
-#define _KEY  "087389887"
+#define _SSID "your WiFi SSID"
+#define _KEY  "your WiFi key"
 
 // Assign device id / key of your test device
-#define MCS_SERVER_URL  "140.127.196.40"
+#define MCS_SERVER_URL  "your MCS server address"
 #define MCS_SERVER_PORT     3000
-#define MCS_DEVICE_ID "S1_4gIZIa"
-#define MCS_DEVICE_KEY  "e55f563c2de72c27ff2704ff4ea31e54b92244cd531c0c86f5a07eaace729440"
+#define MCS_DEVICE_ID "your device id"
+#define MCS_DEVICE_KEY  "your device key"
 MCSLiteDevice mcs(MCS_DEVICE_ID, MCS_DEVICE_KEY, MCS_SERVER_URL, MCS_SERVER_PORT);
 
 // Assign channel id 
